@@ -1,0 +1,69 @@
+/* Mixing from other resources including SLiMS 8 Default Template css*/
+/* We need other resources */
+@import url('asset/css/core.css');
+@import url('asset/css/bootstrap.min.css');
+/* Inline script */
+form[name="mainForm"] {
+	font-size: 13px;
+    padding: 15px;
+}
+
+.popUpSubForm {
+	margin-top: 15px;
+}
+
+.popUpSubmit {
+	margin-top: 15px;
+}
+
+td {
+	padding: 15px;
+	font-size: 10pt;
+}
+
+.btn-danger {
+	font-size: 10pt;
+}
+
+.btn-default {
+	font-size: 10pt;
+}
+
+.infobox {
+	font-size: 12pt;
+}
+
+#loanForm {
+	font-size: 11pt;
+}
+
+.loanItemCodeInput {
+	padding: 10px;
+}
+
+a.trashLink {
+	display: block;
+	font-size: 12pt;
+}
+
+.trashLink:before {
+	font-family: FontAwesome;
+    content:"\f014";
+    font-size: 20px;
+}
+
+.extendLink:before {
+	font-family: FontAwesome;
+    content:"\f055";
+    font-size: 20px;	
+}
+
+.returnLink:before {
+	font-family: FontAwesome;
+    content:"\f0a9";
+    font-size: 20px;	
+}
+
+div.sub_section {
+	font-size: 10pt;
+}
