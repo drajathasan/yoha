@@ -133,6 +133,7 @@ function getShortcut()
 	$_short_cut_d = $_short_cut_q->fetch_assoc();
 
 	// Checking 
+	$shortcuts = false;
 	if ($_short_cut_q->num_rows > 0) {
 		$shortcuts = unserialize($_short_cut_d['setting_value']);
 	}
