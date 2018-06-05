@@ -89,7 +89,7 @@ function yoha_menu() {
 		foreach ($array_mod as $module) {
 			// Call icon function
 			if (isset($_SESSION['priv'][$module['module_path']]['r']) && $_SESSION['priv'][$module['module_path']]['r'] && file_exists('modules'.DS.$module['module_path'])) {
-				$menu .= getSubmenu($module['module_name']);
+				$menu .= getSubmenu($module['module_path']);
 			}
 		}
 	}
